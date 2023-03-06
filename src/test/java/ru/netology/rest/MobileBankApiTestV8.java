@@ -20,7 +20,7 @@ public class MobileBankApiTestV8 {
                 .then()
                 .statusCode(200)
                 // специализированные проверки - лучше
-                .body("[1].currency", equalTo("USS"))
+                .body("[1].currency", equalTo("USD"))
         ;
     }
 }
